@@ -1,0 +1,16 @@
+const log = console.log;
+
+log("Learn array");
+
+//////////////////////////////////////////////////////////////
+////////////////////// 1. วิธีสร้าง/ การประกาศ Array ///////////////
+///////////////////// Array Declaration /////////////////////
+//////////////////////////////////////////////////////////////
+
+// 1.1 Array Literal
+// แต่ละตัวจะเรียกว่า element หรือสมาชิก
+const friends = ["Money", "Non", "Peakpoon", "Fon"];
+
+// 1.2 Array Constructor
+const height = new Array(150, 160, 175);
+log(height);
