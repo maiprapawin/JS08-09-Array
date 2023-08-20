@@ -167,8 +167,26 @@
 // console.log(newArray);
 
 //////////////////////////// 11. ////////////////////////////
+// const array = [
+//   { name: "apple", age: 14 },
+//   { name: "banana", age: 18 },
+//   { name: "watermelon", age: 32 },
+// ];
+// // result: [14, 18, 32]
+
+// const newArr = array.map((fruitObj) => fruitObj.age);
+// console.log(newArr);
 
 //////////////////////////// 12. ////////////////////////////
+// const array = [
+//   { name: "apple", surname: "London" },
+//   { name: "banana", surname: "Bangkok" },
+//   { name: "watermelon", surname: "Singapore" },
+// ];
+// // result: ["apple London", "banana Bangkok", "watermelon Singapore"]
+
+// const newArr = array.map((fruitObj) => `${fruitObj.name} ${fruitObj.surname}`);
+// console.log(newArr);
 
 //////////////////////////// 13. ////////////////////////////
 
